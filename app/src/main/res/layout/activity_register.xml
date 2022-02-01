@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/_30sdp"
+    tools:context=".RegisterActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:onClick="selectImage"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/profial"
+        android:layout_gravity="center"
+       android:layout_margin="10dp"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp" />
+
+
+
+
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/register_et_name"
+        android:hint="name"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:inputType="textWebEmailAddress"
+        android:id="@+id/register_et_email"
+        android:hint="Email"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/register_et_password"
+        android:hint="password"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/register_et_confirm_password"
+        android:hint="confirm password"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <CheckBox
+        android:id="@+id/register_Cb_provider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="is provider"
+        android:layout_margin="@dimen/_10sdp"
+
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:onClick="register"
+        android:layout_margin="10dp"
+        app:cornerRadius="10dp"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

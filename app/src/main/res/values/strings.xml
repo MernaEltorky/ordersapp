@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Firebase</string>
+    <string name="request_description">Request Description</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="first_location">First Location</string>
+    <string name="last_location">Last_Location</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="add_order">Add Order</string>
+    <string name="order_description">Order Description</string>
+    <string name="_21_3_2022">2132022</string>
+    <string name="oky">oky</string>
+    <string name="okay">Okay</string>
+    <string name="order_accept">Order accept</string>
+    <string name="order_state">order State</string>
+    <string name="is_finished">is Finished</string>
+    <string name="accept">accept</string>
+    <string name="update">update</string>
+    <string name="my_ordders">My Ordders</string>
+    <string name="my_orders" />
+    <string name="order_app">Order App</string>
+</resources>
